@@ -102,6 +102,11 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+    repositories{
+        maven{
+            url "https://github.com/nudgenow/libraries/raw/main/nudge_android_v2/"
+        }
+    }
 }
 
 dependencies {

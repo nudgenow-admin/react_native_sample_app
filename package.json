@@ -1,5 +1,6 @@
 {
   "name": "sampleApp",
+  "description": "Sample app for testing Nudge Core for the React Native SDK",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,6 +11,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "nudge_react_native_v2": "^1.0.1",
     "react": "18.2.0",
     "react-native": "0.74.3"
   },
